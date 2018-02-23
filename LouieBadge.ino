@@ -23,12 +23,13 @@ void setup() {
   ht1632c.isLedOn(true);
   ht1632c.clearScreen();
   delay(500);
+  
 }
 char* currmsg;
 
 void loop() {
    ht1632c.inLowpower(false);
-  ht1632c.print(messages[i],5);
+  ht1632c.print(messages[i],50);
   delay(100);
   
    ht1632c.inLowpower(true);
