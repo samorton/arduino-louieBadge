@@ -14,7 +14,7 @@
 
 DFRobot_HT1632C ht1632c = DFRobot_HT1632C(DATA, WR,CS);
 
-char str[] = " Hello   Louie ; )";
+char str[] = " Hello   Louie :)";
 
 void setup() {
   Serial.begin(115200);
