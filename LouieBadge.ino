@@ -3,7 +3,7 @@
 
 #define DATA 0
 #define CS 1
-#define WR 2
+#define WR 3
 //#define RD 8
 
 DFRobot_HT1632C ht1632c = DFRobot_HT1632C(DATA, WR,CS);
